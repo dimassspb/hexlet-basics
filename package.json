@@ -1,0 +1,31 @@
+{
+  "name": "brain-games",
+  "version": "1.0.0",
+  "description": "games",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimassspb/hexlet-basics.git"
+  },
+  "bin": {
+    "brain-games": "dist/bin/brain-even.js"
+  },
+  "author": "dimass",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimassspb/hexlet-basics/issues"
+  },
+  "homepage": "https://github.com/dimassspb/hexlet-basics#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
